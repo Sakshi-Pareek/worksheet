@@ -15,6 +15,7 @@ import worksheet from "../assets/images/png/worksheet.png";
 import slides from "../assets/images/png/slickslider.png";
 import noble from "../assets/images/png/noble-mind.png";
 import miners from "../assets/images/png/mini-miners.png";
+import formvalid from "../assets/images/png/formvalid.png";
 
 const Worksheet = () => {
   const [tab, settab] = useState("tab1");
@@ -630,10 +631,10 @@ const Worksheet = () => {
                           Github-Link :{" "}
                           <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
                             <a
-                              href="https://github.com/Sakshi-Pareek/html_vite.git"
+                              href="https://github.com/Sakshi-Pareek/worksheet.git"
                               target="blank"
                             >
-                              https://github.com/Sakshi-Pareek/html_vite.git
+                              https://github.com/Sakshi-Pareek/worksheet.git
                             </a>
                           </span>
                         </p>
@@ -783,7 +784,7 @@ const Worksheet = () => {
                       <div className="flex">
                         <p className="text-white pe-1 text-2xl pb-3">4.</p>
                         <img
-                          src={worksheet}
+                          src={formvalid}
                           alt="1"
                           className="w-full max-h-[200px] h-full md:max-w-[350px] max-w-[290px] rounded-lg"
                         />
@@ -791,17 +792,17 @@ const Worksheet = () => {
                     </div>
                     <div className="md:w-[50%]">
                       <p className="text-white font-bold pb-3 text-3xl">
-                        WORKSHEET
+                        FORM VALIDATION IN REACT
                       </p>
                       <div>
                         <p className="text-white text-xl">
                           Github-Link :{" "}
                           <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
                             <a
-                              href="https://github.com/Sakshi-Pareek/html_vite.git"
+                              href="https://github.com/Sakshi-Pareek/form-validation-react.git"
                               target="blank"
                             >
-                              https://github.com/Sakshi-Pareek/html_vite.git
+                              https://github.com/Sakshi-Pareek/form-validation-react.git
                             </a>
                           </span>
                         </p>
@@ -809,10 +810,10 @@ const Worksheet = () => {
                           Live-Link :{" "}
                           <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
                             <a
-                              href="https://worksheet-322.netlify.app/"
+                              href="https://form-validation-react-fawn.vercel.app/"
                               target="blank"
                             >
-                              https://worksheet-322.netlify.app/
+                              https://form-validation-react-fawn.vercel.app/
                             </a>
                           </span>
                         </p>
