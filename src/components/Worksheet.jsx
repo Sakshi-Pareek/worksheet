@@ -642,10 +642,10 @@ const Worksheet = () => {
                           Live-Link :{" "}
                           <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
                             <a
-                              href="https://worksheet-322.netlify.app/"
+                              href="https://worksheet-snowy.vercel.app/"
                               target="blank"
                             >
-                              https://worksheet-322.netlify.app/
+                              https://worksheet-snowy.vercel.app/
                             </a>
                           </span>
                         </p>
