@@ -17,6 +17,9 @@ import noble from "../assets/images/png/noble-mind.png";
 import miners from "../assets/images/png/mini-miners.png";
 import formvalid from "../assets/images/png/formvalid.png";
 import reactswiper from "../assets/images/png/swiper-react.png";
+import nextrouting from "../assets/images/png/nextjs-routing.png";
+import mapslide from "../assets/images/png/mapslides.png";
+import emailjsvalidation from "../assets/images/png/validwithemailjs.png";
 
 const Worksheet = () => {
   const [tab, settab] = useState("tab1");
@@ -856,6 +859,129 @@ const Worksheet = () => {
                               target="blank"
                             >
                               https://swiper-slider-react-rosy.vercel.app/
+                            </a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-4 md:justify-between justify-center items-center flex-row">
+                    <div className="md:w-[45%]">
+                      <div className="flex">
+                        <p className="text-white pe-1 text-2xl pb-3">6.</p>
+                        <img
+                          src={nextrouting}
+                          alt="1"
+                          className="w-full max-h-[200px] h-full md:max-w-[350px] max-w-[290px] rounded-lg"
+                        />
+                      </div>
+                    </div>
+                    <div className="md:w-[50%]">
+                      <p className="text-white font-bold pb-3 text-3xl">
+                        NEXT JS ROUTING
+                      </p>
+                      <div>
+                        <p className="text-white text-xl">
+                          Github-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://github.com/Sakshi-Pareek/next-routing.git"
+                              target="blank"
+                            >
+                              https://github.com/Sakshi-Pareek/next-routing.git
+                            </a>
+                          </span>
+                        </p>
+                        <p className="text-white text-xl">
+                          Live-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://next-routing-theta.vercel.app/"
+                              target="blank"
+                            >
+                              https://next-routing-theta.vercel.app/
+                            </a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-4 md:justify-between justify-center items-center flex-row">
+                    <div className="md:w-[45%]">
+                      <div className="flex">
+                        <p className="text-white pe-1 text-2xl pb-3">7.</p>
+                        <img
+                          src={mapslide}
+                          alt="1"
+                          className="w-full max-h-[200px] h-full md:max-w-[350px] max-w-[290px] rounded-lg"
+                        />
+                      </div>
+                    </div>
+                    <div className="md:w-[50%]">
+                      <p className="text-white font-bold pb-3 text-3xl">
+                        CARDS & SLIDER BY MAP IN NEXTJS
+                      </p>
+                      <div>
+                        <p className="text-white text-xl">
+                          Github-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://github.com/Sakshi-Pareek/card-by-map-nextjs.git"
+                              target="blank"
+                            >
+                              https://github.com/Sakshi-Pareek/card-by-map-nextjs.git
+                            </a>
+                          </span>
+                        </p>
+                        <p className="text-white text-xl">
+                          Live-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://card-by-map-nextjs.vercel.app/"
+                              target="blank"
+                            >
+                              https://card-by-map-nextjs.vercel.app/
+                            </a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-4 md:justify-between justify-center items-center flex-row">
+                    <div className="md:w-[45%]">
+                      <div className="flex">
+                        <p className="text-white pe-1 text-2xl pb-3">8.</p>
+                        <img
+                          src={emailjsvalidation}
+                          alt="1"
+                          className="w-full max-h-[200px] h-full md:max-w-[350px] max-w-[290px] rounded-lg"
+                        />
+                      </div>
+                    </div>
+                    <div className="md:w-[50%]">
+                      <p className="text-white font-bold pb-3 text-3xl">
+                        FORM VALIDATION WITH EMAILJS
+                      </p>
+                      <div>
+                        <p className="text-white text-xl">
+                          Github-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://github.com/Sakshi-Pareek/validation-with-emailjs.git"
+                              target="blank"
+                            >
+                              https://github.com/Sakshi-Pareek/validation-with-emailjs.git
+                            </a>
+                          </span>
+                        </p>
+                        <p className="text-white text-xl">
+                          Live-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://form-validation-with-emailjs.vercel.app/"
+                              target="blank"
+                            >
+                              https://form-validation-with-emailjs.vercel.app/
                             </a>
                           </span>
                         </p>
