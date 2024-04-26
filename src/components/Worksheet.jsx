@@ -1034,7 +1034,7 @@ const Worksheet = () => {
                   <div className="flex flex-wrap gap-4 md:justify-between justify-center items-center flex-row">
                     <div className="md:w-[45%]">
                       <div className="flex">
-                        <p className="text-white pe-1 text-2xl pb-3">9.</p>
+                        <p className="text-white pe-1 text-2xl pb-3">10.</p>
                         <img
                           src={kavaproject}
                           alt="1"
@@ -1044,7 +1044,7 @@ const Worksheet = () => {
                     </div>
                     <div className="md:w-[50%]">
                       <p className="text-white font-bold pb-3 text-3xl">
-                        KAVAUP NEXTJS PROJECT (TAILWIND)
+                        KAVAUP NEXTJS PROJECT (TAILWIND) in progress
                       </p>
                       <div>
                         <p className="text-white text-xl">
