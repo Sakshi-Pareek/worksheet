@@ -20,6 +20,7 @@ import reactswiper from "../assets/images/png/swiper-react.png";
 import nextrouting from "../assets/images/png/nextjs-routing.png";
 import mapslide from "../assets/images/png/mapslides.png";
 import emailjsvalidation from "../assets/images/png/validwithemailjs.png";
+import kavaup from "../assets/images/png/KAVAUP.png";
 
 const Worksheet = () => {
   const [tab, settab] = useState("tab1");
@@ -982,6 +983,47 @@ const Worksheet = () => {
                               target="blank"
                             >
                               https://form-validation-with-emailjs.vercel.app/
+                            </a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-4 md:justify-between justify-center items-center flex-row">
+                    <div className="md:w-[45%]">
+                      <div className="flex">
+                        <p className="text-white pe-1 text-2xl pb-3">9.</p>
+                        <img
+                          src={kavaup}
+                          alt="1"
+                          className="w-full max-h-[200px] h-full md:max-w-[350px] max-w-[290px] rounded-lg"
+                        />
+                      </div>
+                    </div>
+                    <div className="md:w-[50%]">
+                      <p className="text-white font-bold pb-3 text-3xl">
+                        KAVAUP NEXTJS BOOTSTRAP (TEST)
+                      </p>
+                      <div>
+                        <p className="text-white text-xl">
+                          Github-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://github.com/Sakshi-Pareek/kavaup.git"
+                              target="blank"
+                            >
+                              https://github.com/Sakshi-Pareek/kavaup.git
+                            </a>
+                          </span>
+                        </p>
+                        <p className="text-white text-xl">
+                          Live-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://kavaup-lo65.vercel.app/"
+                              target="blank"
+                            >
+                              https://kavaup-lo65.vercel.app/
                             </a>
                           </span>
                         </p>
