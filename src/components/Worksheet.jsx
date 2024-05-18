@@ -22,6 +22,7 @@ import mapslide from "../assets/images/png/mapslides.png";
 import emailjsvalidation from "../assets/images/png/validwithemailjs.png";
 import kavaup from "../assets/images/png/KAVAUP.png";
 import kavaproject from "../assets/images/png/kavaproject.png";
+import invert from "../assets/images/png/invert_ai.png";
 
 const Worksheet = () => {
   const [tab, settab] = useState("tab1");
@@ -1076,7 +1077,47 @@ const Worksheet = () => {
               )}
               {tab === "tab5" && (
                 <div className="px-3 py-5 flex flex-col gap-7 border-white h-[500px] overflow-y-scroll border-4 rounded-xl">
-                  <p className="text-white text-4xl font-bold">COMING-SOON</p>
+                  <div className="flex flex-wrap gap-4 md:justify-between justify-center items-center flex-row">
+                    <div className="md:w-[45%]">
+                      <div className="flex">
+                        <p className="text-white pe-1 text-2xl pb-3">1.</p>
+                        <img
+                          src={invert}
+                          alt="1"
+                          className="w-full max-h-[200px] h-full md:max-w-[350px] max-w-[290px] rounded-lg"
+                        />
+                      </div>
+                    </div>
+                    <div className="md:w-[50%]">
+                      <p className="text-white font-bold pb-3 text-3xl">
+                       INVEST AI
+                      </p>
+                      <div>
+                        <p className="text-white text-xl">
+                          Github-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://github.com/Sakshi-Pareek/invert-ai.git"
+                              target="blank"
+                            >
+                              https://github.com/Sakshi-Pareek/invert-ai.git
+                            </a>
+                          </span>
+                        </p>
+                        <p className="text-white text-xl">
+                          Live-Link :{" "}
+                          <span className="ms-3 border-b-2 border-white hover:text-blue-700 duration-500">
+                            <a
+                              href="https://invert-ai.vercel.app/"
+                              target="blank"
+                            >
+                              https://invert-ai.vercel.app/
+                            </a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               )}
               {tab === "tab6" && (
